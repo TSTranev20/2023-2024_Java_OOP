@@ -1,12 +1,15 @@
+package task2;
 import java.util.Scanner;
-
 
 public class Main
 {
     public static void main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
-        System.out.printf("Hello Java!%nThis is another line.");
+        for(int i = 1; i < 6; i++)
+        {
+            System.out.println(i);
+        }
 
     }
 }
