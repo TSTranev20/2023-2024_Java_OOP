@@ -1,4 +1,5 @@
 package task7;
+
 import java.util.Scanner;
 
 public class Main
@@ -10,20 +11,30 @@ public class Main
         String[] arr = new String[100];
 
         String s = scan.nextLine();
-        String str = " ";
+        s+="";
+        String str = "";
         int c = 0;
-        for(int i = 0; i < s.length();i++)
+        for(int i = 0; i < s.length(); i++)
         {
-            if(s.charAt(i)!= ' ')
+            if(s.charAt(i)!= ' ')// Agqga mama topki
             {
                 str += s.charAt(i);
+                if(i == (s.length() - 1))
+                {
+                    arr[c] = str;
+                    c+=1;
+                    str = "";
+                }
             }
-            else {
+            if(s.charAt(i) == ' ')
+            {
                 arr[c] = str;
                 c+=1;
+                str = "";
             }
         }
-        for(int i = 0; i < c; i++)
+        c-=1;
+        for(int i = c; i >= 0; i--)
         {
             System.out.printf("%s ", arr[i]);
         }
