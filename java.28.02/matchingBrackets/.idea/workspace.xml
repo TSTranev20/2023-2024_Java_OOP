@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a320c4a-899d-4d8c-be42-527fd8bebcb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../java.28.02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java.28.02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java.28.02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java.28.02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java.28.02/java.28.02.iml" afterDir="false" />
-    </list>
+    <list default="true" id="9a320c4a-899d-4d8c-be42-527fd8bebcb8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/TSTranev20/IdeaProjects/java12.18"
+    "last_opened_file_path": "C:/Users/TSTranev20/IdeaProjects/Java_OOP/2023-2024_Java_OOP/java.28.02/java.28.02"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main2">
@@ -51,6 +45,19 @@
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
       <module name="matchingBrackets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="matchingBrackets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="matchingBrackets" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709109928183</updated>
       <workItem from="1709109929466" duration="1090000" />
+      <workItem from="1709711184663" duration="821000" />
     </task>
     <servers />
   </component>
