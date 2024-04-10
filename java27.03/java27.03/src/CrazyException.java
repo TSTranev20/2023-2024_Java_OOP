@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class CrazyException {
+public class CrazyException extends RuntimeException {
+    //field...
+    public CrazyException(String message) {
+        super(message);
+    }
 }
